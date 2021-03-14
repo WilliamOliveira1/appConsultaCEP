@@ -12,8 +12,8 @@ public class ConsumirJSON extends AsyncTask<Void, Void, CEP> {
 
     private final String cep;
 
-    public ConsumirJSON(String cep, String cep1) {
-        this.cep = cep1;
+    public ConsumirJSON(String cep) {
+        this.cep = cep;
     }
 
     @Override
